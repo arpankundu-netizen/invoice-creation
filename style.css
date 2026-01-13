@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.invoice-box{
+  width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  border: 2px solid #000;
+  padding: 0;
+}
+.header{
+  padding: 15px;
+  border-bottom: 2px solid #000;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.details td{
+  border: 1px solid #000;
+  padding: 10px;
+}
+.details p{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.left{
+ width: 50%;
+}
+.details span {
+  text-align: left;
+  width: 50%;
+}
+.details-right {
+  text-align: left;
+  width: 50%;
+}
+.address th,
+.address td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+.address th {
+  text-align: center;
+  font-weight: bold;
+}
+.items th,
+.items td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+.product p {
+  text-align: left;
+}
+.subtotal td {
+  font-weight: bold;
+  text-align: center;
+}
+.footer {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #000;
+  letter-spacing: 2px;
+}
